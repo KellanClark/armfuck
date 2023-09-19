@@ -1,5 +1,5 @@
 # ARMfuck
-ARMfuck shows that ARM's `LDM` and `STM` instructions are Turing-complete by using them, and no other instructions, to implement an interpreter for a version of a Brainfuck. For more information on how it works, read [this blog post]().
+ARMfuck shows that ARM's `LDM` and `STM` instructions are Turing-complete by using them, and no other instructions, to implement an interpreter for a version of a Brainfuck. For more information on how it works, read [this blog post](https://kellanclark.github.io/2023/09/18/armfuck/).
 
 ![](screenshot.png)
 
