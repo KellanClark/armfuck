@@ -58,7 +58,6 @@ command_out:
 
 ; Sets the current number to the next input character
 	nopl
-	nopl
 command_in:
 	; *dp = getchar()
 	ldmia input!, {dat}

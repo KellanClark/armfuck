@@ -6,7 +6,7 @@ ARMfuck shows that ARM's `LDM` and `STM` instructions are Turing-complete by usi
 ---
 
 ## Using
-This repository comes provided with a compiled ROM that has `hellobf.bf` (the program running in the image) loaded. To load a new Brainfuck program or change the input, it must be converted into a form the interpreter can understand and inserted into the ROM by running
+This repository comes provided with a compiled ROM that has `quine.bf` (the program running in the image) loaded. To load a new Brainfuck program or change the input, it must be converted into a form the interpreter can understand and inserted into the ROM by running
 ```bash
 python scripts/loadprogram.py <brainfuck file> [input text]
 ```
