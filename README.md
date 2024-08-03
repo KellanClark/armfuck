@@ -19,10 +19,12 @@ Once you've selected a program, you can run `armfuck.gba` on a Game Boy Advance 
 The base ROM can be compiled with the included FASMARM using the command
 ```shell
 .\FASMARM\fasmarm.exe header.s armfuck.gba
+python .\scripts\unoptimize.py armfuck.gba
 ```
 on Windows or
 ```bash
 ./FASMARM/fasmarm header.s armfuck.gba
+python scripts/unoptimize.py armfuck.gba
 ```
 on Linux.
 
